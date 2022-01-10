@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
 import plotly.express as px
 import numpy as np
-import time
+import time as time
 
 # Page layout
 ######################################
