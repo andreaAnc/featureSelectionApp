@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier
 import plotly.express as px
 import numpy as np
-import time as time
+import time 
 
 # Page layout
 ######################################
@@ -83,7 +83,7 @@ def randomForest(x, y):
         chart.add_rows(new_rows)
 
         # Pretend we're doing some computation that takes time.
-        time.sleep(1)
+        time.sleep(0.1)
 
     status_text.text('Done!')
     st.balloons()
